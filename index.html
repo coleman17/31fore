@@ -163,47 +163,60 @@
         </div>
     </aside>
 -->
-    <div id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/31_fore_color_exterior.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/first_floor_plan.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('img/second_floor_plan.png');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+	    <a href="img/31_fore_color_exterior.png" target="_blank">
+			<img src="img/31_fore_color_exterior.png" alt="First">
+	    </a>
+      <div class="carousel-caption">
+<!--       	<h3>Caption Text</h3> -->
+      </div>
     </div>
+    <div class="item">
+	    <a href="img/first_floor_plan.png" target="_blank">
+			<img src="img/first_floor_plan.png" alt="Second">
+	    </a>
+      <div class="carousel-caption">
+<!--       	<h3>Caption Text</h3> -->
+      </div>
+    </div>
+    <div class="item">
+	    <a href="img/second_floor_plan.png" target="_blank">
+			<img src="img/second_floor_plan.png" alt="Third">
+	    </a>
+      <div class="carousel-caption">
+<!--       	<h3>Caption Text</h3> -->
+      </div>
+    </div>
+    <div class="item">
+	    <a href="img/roof_deck_floor_plan.png" target="_blank">
+			<img src="img/roof_deck_floor_plan.png" alt="Fourth">
+	    </a>
+      <div class="carousel-caption">
+<!--       	<h3>Caption Text</h3> -->
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -215,34 +228,32 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://www.penpd.com/projects/">
-                                    <img class="img-portfolio img-responsive" src="img/71weststreet.jpg">
+                                <a href="img/IMG_4533.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/IMG_4533.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://www.penpd.com/projects/">
-                                    <img class="img-portfolio img-responsive" src="img/146newburystreet.jpg">
-                                </a>
-                            </div>
-                        </div>
-<!--
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                <a href="img/IMG_4532.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/IMG_4532.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                <a href="img/IMG_4544.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/IMG_4544.jpg">
                                 </a>
                             </div>
                         </div>
--->
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="img/IMG_4526.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/IMG_4526.jpg">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.row (nested) -->
                     <a href="http://www.penpd.com/" class="btn btn-dark">View More...</a>
@@ -287,7 +298,7 @@
                     <p>59 Moody Street</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i>(207)-879-2222</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">cleblanc@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:robertleblanc1@me.com">robertleblanc1@me.com</a>
                         </li>
                     </ul>
                     <br>
@@ -318,13 +329,20 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
     </script>
+    
+    <!-- Opens images in new window -->
+    <script language="JavaScript">
+		function view(img) {
+			imgsrc = img.src.split("_")[0] + "_big.jpg";
+			viewwin = window.open(imgsrc,'viewwin', 'width=600,height=300');    
+   		}
+	</script>
 
     <!-- Custom Theme JavaScript -->
     <script>
